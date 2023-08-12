@@ -133,18 +133,31 @@ In summary, this `checkWin()` function comprehensively examines the Tic Tac Toe 
 
 
 void drawBoard(){
+
     system("cls");
+    
     printf("\n\n\t Tic Tac Toe \n\n");
+    
     printf("Player1 (X) - Player2 (O) \n\n\n");
+    
     printf("     |     |     \n");
+    
     printf("  %c  |  %c  |  %c  \n",square[1],square[2],square[3]);
+    
     printf("_____|_____|_____\n");
+    
     printf("     |     |     \n");
+    
     printf("  %c  |  %c  |  %c  \n",square[4],square[5],square[6]);
+    
     printf("_____|_____|_____\n");
+    
     printf("     |     |     \n");
+    
     printf("  %c  |  %c  |  %c  \n",square[7],square[8],square[9]);
+    
     printf("     |     |     \n");    
+    
 }
 ```
 `drawBoard()` is used to display the current state of the Tic Tac Toe board on the console. It uses the `square` array to represent the board, and it employs formatted `printf` statements to create the visual layout.
